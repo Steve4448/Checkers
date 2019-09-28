@@ -1,0 +1,11 @@
+*.class
+.settings/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target/
+/nbproject/private/
+/dist/
+/build/
