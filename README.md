@@ -34,3 +34,11 @@ By default the IP that will be used is 127.0.0.1, in order to change this, use:
 As a full example on how to run the client with the above examples:
 
 `java main.CheckersGUI -port 8184 -ip "192.168.0.100"`
+
+## Todo List
+- The game isn't aware of pieces that are trapped and therefor draw games aren't calculated.
+- Add the option of playing without the rule of forced jumps.
+- A turn indicator.
+- Add the option of deciding the game board size without the command line. Possibly a main menu?
+- Possibly show a grid indicating the tile's index with a log of what piece moved where.
+- Animations for moving pieces?
